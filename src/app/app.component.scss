@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky-bottom-right {
+  position: fixed;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px; /* Adjust the distance from the right */
+  background-color: #3442db; /* Your preferred background color */
+  color: #fff; /* Text color */
+  padding: 4px; /* Add padding for content inside the div */
+  border-radius: 15px; /* Optional: Add rounded corners */
+  /* Add any other styles as needed */
+  height: auto;
+  width: auto;
+}
+
+
